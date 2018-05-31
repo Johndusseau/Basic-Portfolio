@@ -1,0 +1,38 @@
+main{
+    background-color: #ffffff;
+    height: 150px;
+    width: 150px;
+
+}
+body{
+    background-color: #666666;
+}
+div#wrapper{
+    
+    margin: 30px auto;
+    background:white;
+    width: 860px;
+    height: 1000;
+    border: 1px solid black
+}
+header{
+    background: #ffffff;
+    border-bottom: #4aaaa5 solid 5px;
+}
+#horzNav{
+    text-align: right;
+}
+h1{
+    color: #4aaaa5;
+    border-bottom-color: #4aaaa5 solid 3px;
+
+}
+p{
+    color: #777777;
+}
+footer{
+    border-top: #4aaaa5 5px solid;
+    text-align: center;
+    background: #666666;
+
+}
