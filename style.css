@@ -1,6 +1,7 @@
 body{
     background-color: #dddd;
 }
+
 .header{
     position: fixed;
     height: 80px;
@@ -8,10 +9,12 @@ body{
     background: #ffffff;
     border-bottom: #4aaaa5 solid 5px
 }
+
 #horzNav{
     position: relative;
     background-color: #ffffff;
     bottom: 60px;
+    margin-right: 280px;
     overflow: auto;
     float: right;
     text-align: right;
@@ -19,6 +22,7 @@ body{
 
 
 #name{
+    
     clear: both;
     position: relative;
     text-align: center;
@@ -42,6 +46,9 @@ p{
     line-height: 24px;
     
 }
+
+
+
 .wrapper{
     padding: 20px;
     margin-top: 100px;
@@ -51,6 +58,8 @@ p{
     background:white;
     padding-bottom: 100px;
 }
+
+
 #wrapper1{
     padding: 20px;
     margin-top: 100px;
@@ -60,6 +69,8 @@ p{
     background:white;
     padding-bottom: 100px;
 }
+
+
 .wrapper2{
     padding: 20px;
     margin-top: 100px;
@@ -70,13 +81,29 @@ p{
     padding-bottom: 100px;
 
 }
+
+
 .image-box {
+    padding: 50 px;
     text-align: center;
     position: relative;
     display: inline-block;
     overflow: hidden;
 }
-    footer{
+h3{
+    position: absolute;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    padding: 10px 0px 10px 0px;
+    font-size: 18pt;
+    bottom: 20%;
+    background-color: #4aaaa5;
+    color: ivory;
+}
+
+
+
+ footer{
     position: relative;
     text-align: center;
     border-top: #4aaaa5 5px solid;
