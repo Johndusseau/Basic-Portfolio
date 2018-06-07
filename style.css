@@ -41,9 +41,9 @@ body{
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-p{
+  .p {  
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
-    line-height: 24px;
+    line-height: 48px;
     
 }
 
@@ -58,7 +58,10 @@ p{
     background:white;
     padding-bottom: 100px;
 }
-
+img.floatleft{
+    float: left;
+    padding: 4PX;
+}
 
 #wrapper1{
     padding: 20px;
@@ -84,7 +87,7 @@ p{
 
 
 .image-box {
-    padding: 50 px;
+    padding:25 px;
     text-align: center;
     position: relative;
     display: inline-block;
@@ -107,7 +110,7 @@ h3{
     position: relative;
     text-align: center;
     border-top: #4aaaa5 5px solid;
-    height: 20px;
+    height: 15px;
     background-color:#666666;
     width: 100%;
 
